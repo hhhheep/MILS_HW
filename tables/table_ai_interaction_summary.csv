@@ -1,0 +1,6 @@
+stage,ai_contribution,possible_risk,human_verification,evidence_file
+Assignment understanding,AI summarized the assignment goal and deliverables.,AI may over-simplify the grading criteria.,Checked against the official assignment document.,report_final_draft.md / assignment notes
+Claim generation,AI proposed claims about corruption robustness.,Claims may be too broad or too confident.,Rewrote each claim into a measurable hypothesis.,claim_audit.csv
+Metric design,"AI suggested relative drop, wrong confidence, and failure overlap.",Metrics may not fully capture robustness.,Defined formulas and computed them from model outputs.,results.csv
+Experiment planning,"AI suggested CIFAR-10-C, selected corruptions, and severity 1/3/5.",Subset choices may limit conclusion scope.,Reported selected corruptions and severities explicitly.,metadata.json / results.csv
+Result interpretation,AI helped phrase supported/refuted/partial conclusions.,AI may overstate generality.,Added limitations and evidence references.,report_final_draft.md

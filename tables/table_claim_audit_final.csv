@@ -1,0 +1,6 @@
+claim_id,ai_claim,testable_hypothesis,audit_decision,evidence_summary,report_reference
+C1,Gaussian noise is more damaging than brightness.,"For the same model and severity, Gaussian noise has larger relative accuracy drop than brightness.",Supported,6/6 model-severity comparisons satisfy gaussian_noise > brightness.,Claim Audit / C1
+C2,Higher corruption severity lowers model accuracy.,"For each model and corruption, severity 1 -> 3 -> 5 accuracy is monotonically non-increasing.",Supported,10/10 model-corruption curves are monotonic.,Claim Audit / C2
+C3,JPEG compression is easier than Gaussian noise.,Average relative drop for JPEG compression is lower than Gaussian noise.,Supported,2/2 models satisfy JPEG average drop < Gaussian noise average drop.,Claim Audit / C3
+C4,The stronger model has a smaller relative drop under corruptions.,resnet56 average relative drop is lower than resnet20.,Supported,resnet20 avg relative drop=0.2040; resnet56 avg relative drop=0.1940.,Claim Audit / C4
+C5,"At high severity, models fail on the same hard samples more often.",Average failure overlap at severity 5 is higher than severity 1.,Supported,Mean failure overlap severity1=0.0877; severity5=0.2848.,Claim Audit / C5

@@ -1,0 +1,44 @@
+{
+  "files": {
+    "results.csv": "OK",
+    "claim_audit.csv": "OK",
+    "failure_cases.csv": "OK"
+  },
+  "columns": {
+    "results.csv": [],
+    "claim_audit.csv": [],
+    "failure_cases.csv": []
+  },
+  "claim_recheck": {
+    "C1": {
+      "claim": "Gaussian noise is more damaging than brightness.",
+      "supported": 6,
+      "total": 6,
+      "decision": "Supported"
+    },
+    "C2": {
+      "claim": "Higher corruption severity lowers model accuracy.",
+      "supported": 10,
+      "total": 10,
+      "decision": "Supported"
+    },
+    "C3": {
+      "claim": "JPEG compression is easier than Gaussian noise.",
+      "supported": 2,
+      "total": 2,
+      "decision": "Supported"
+    },
+    "C4": {
+      "claim": "The stronger/deeper model has smaller average relative drop.",
+      "resnet20_avg_relative_drop": 0.20400816207549916,
+      "resnet56_avg_relative_drop": 0.19401736892891605,
+      "decision": "Supported"
+    },
+    "C5": {
+      "claim": "At high severity, models fail on the same hard samples more often.",
+      "severity1_mean_failure_overlap": 0.0877,
+      "severity5_mean_failure_overlap": 0.28481999999999996,
+      "decision": "Supported"
+    }
+  }
+}

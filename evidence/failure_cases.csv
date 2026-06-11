@@ -1,0 +1,6 @@
+case_id,case_type,model,corruption,severity,sample_index,true_label,prediction,confidence,image_path,explanation
+case_1,both_wrong,resnet20,gaussian_noise,5,1564,automobile,frog,1.0,figures/failure_cases/case_1_both_wrong.png,Representative failure selected from the evaluated condition.
+case_2,resnet20_wrong_resnet56_correct,resnet20,gaussian_noise,5,8422,bird,frog,0.999986,figures/failure_cases/case_2_resnet20_wrong_resnet56_correct.png,Representative failure selected from the evaluated condition.
+case_3,resnet56_wrong_resnet20_correct,resnet56,gaussian_noise,5,2019,truck,frog,0.999999,figures/failure_cases/case_3_resnet56_wrong_resnet20_correct.png,Representative failure selected from the evaluated condition.
+case_4,both_wrong,resnet20,motion_blur,5,6329,automobile,cat,1.0,figures/failure_cases/case_4_both_wrong.png,Representative failure selected from the evaluated condition.
+case_5,resnet20_wrong_resnet56_correct,resnet20,motion_blur,5,5726,automobile,dog,1.0,figures/failure_cases/case_5_resnet20_wrong_resnet56_correct.png,Representative failure selected from the evaluated condition.

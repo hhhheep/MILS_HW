@@ -1,0 +1,16 @@
+| model | corruption | severity | shifted_acc | relative_drop | wrong_confidence | failure_overlap |
+| --- | --- | --- | --- | --- | --- | --- |
+| resnet20 | gaussian_noise | 1 | 0.7153 | 0.2181 | 0.8314 | 0.1805 |
+| resnet56 | gaussian_noise | 1 | 0.7545 | 0.1911 | 0.8574 | 0.1805 |
+| resnet20 | gaussian_noise | 3 | 0.3333 | 0.6357 | 0.8635 | 0.5655 |
+| resnet56 | gaussian_noise | 3 | 0.3627 | 0.6111 | 0.8872 | 0.5655 |
+| resnet20 | gaussian_noise | 5 | 0.2389 | 0.7389 | 0.8739 | 0.6911 |
+| resnet56 | gaussian_noise | 5 | 0.2501 | 0.7319 | 0.8805 | 0.6911 |
+| resnet20 | motion_blur | 5 | 0.6223 | 0.3197 | 0.8283 | 0.2620 |
+| resnet56 | motion_blur | 5 | 0.6484 | 0.3048 | 0.8657 | 0.2620 |
+| resnet20 | fog | 5 | 0.6750 | 0.2621 | 0.8213 | 0.2040 |
+| resnet56 | fog | 5 | 0.7312 | 0.2160 | 0.8551 | 0.2040 |
+| resnet20 | brightness | 5 | 0.8662 | 0.0531 | 0.8133 | 0.0714 |
+| resnet56 | brightness | 5 | 0.8868 | 0.0492 | 0.8420 | 0.0714 |
+| resnet20 | jpeg_compression | 5 | 0.7033 | 0.2312 | 0.8106 | 0.1956 |
+| resnet56 | jpeg_compression | 5 | 0.7130 | 0.2356 | 0.8483 | 0.1956 |
